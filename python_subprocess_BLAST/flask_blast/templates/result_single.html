@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Fasta Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+        html {
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            cursor: url('/mnt/c/Users/DELL/OneDrive/Desktop/Abhishek_sir_project/python_subprocess_BLAST/blast_subprocess/multiple_fasta/flask2.0/templates/injection.png'), auto;
+            background : linear-gradient(132deg, #24c6dc, #3494e6, #ec6ead, #f80759, #bc4e9c); 
+            background-size : 400% 400%;
+            animation : Gradient 15s ease infinite;
+            font-family: 'Exo', sans-serif;
+        }
+        @keyframes Gradient {
+    0% {
+         background-position: 0% 50%
+       }
+   50% { 
+         background-position: 100% 50%
+       }
+  100% {
+      background-position: 0% 50%
+      }
+}
+        
+
+    h1  {
+            font-family: 'Exo', sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+        table {
+            margin: 30px 30px 30px 30px;
+            padding: 30px 30px 30px 30px;
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+            color: black;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #343a40; /* Dark grey */
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa; /* Light grey */
+        }
+
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Single Fasta Result</h1>
+    <h2>Results for: {{ fasta_filename }}</h2>
+    
+    <table class="table table-dark table-striped" >
+        <tr>
+            <th>qseqid</th>
+            <th>sseqid</th>
+            <th>pident</th>
+            <th>length</th>
+            <th>mismatch</th>
+            <th>gapopen</th>
+            <th>qstart</th>
+            <th>qend</th>
+            <th>sstart</th>
+            <th>send</th>
+            <th>evalue</th>
+            <th>bitscore</th>
+        </tr>
+        {% for row in results %}
+        <tr>
+            <td>{{ row.qseqid }}</td>
+            <td>{{ row.sseqid }}</td>
+            <td>{{ row.pident }}</td>
+            <td>{{ row.length }}</td>
+            <td>{{ row.mismatch }}</td>
+            <td>{{ row.gapopen }}</td>
+            <td>{{ row.qstart }}</td>
+            <td>{{ row.qend }}</td>
+            <td>{{ row.sstart }}</td>
+            <td>{{ row.send }}</td>
+            <td>{{ row.evalue }}</td>
+            <td>{{ row.bitscore }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

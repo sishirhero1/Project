@@ -1,0 +1,53 @@
+# encoding: utf-8
+# Release 19.2
+SetScriptVersion(Version="19.2.120")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath=GetAbsoluteUserPathName("Part1step.STEP"))
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+geometry1.SetFile(FilePath=GetAbsoluteUserPathName("Assem3.STEP"))
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+modelComponent1.UpdateUpstreamComponents()
+geometry1.Edit()
+geometry1.Exit()
+modelComponent1.UpdateUpstreamComponents()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometry2 = system2.GetContainer(ComponentName="Geometry")
+geometry2.SetFile(FilePath=GetAbsoluteUserPathName("Assem3.STEP"))
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometry2.Edit()
+geometry2.Exit()
+modelComponent2 = system2.GetComponent(Name="Model")
+modelComponent2.Refresh()
+model2 = system2.GetContainer(ComponentName="Model")
+model2.Edit()
+model2.Exit()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="Composite Materials",
+    Source="Composite_Materials.xml")
+engineeringData1 = system2.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Carbon Fiber (290 GPa)",
+    Source="Composite_Materials.xml")
+modelComponent2.UpdateUpstreamComponents()
+modelComponent2.Refresh()
+model2.Edit()
+model2.Exit()
+system1.Delete()
+Save(Overwrite=True)

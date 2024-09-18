@@ -1,0 +1,2156 @@
+
+ ANSYS Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS Release 19.2     LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2018 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2008 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ Release 19.2
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products Release 19.2   
+ SpaceClaim Release 19.2 
+ AIM Release 19.2
+ Autodyn Release 19.2
+ LS-DYNA Release 19.2
+ CFD-Post only Release 19.2  
+ CFX (includes CFD-Post) Release 19.2
+ Chemkin Release 19.2
+ EnSight Release 19.2
+ FENSAP-ICE Release 19.2 
+ Fluent (includes CFD-Post) Release 19.2 
+ Forte Release 19.2  
+ Polyflow (includes CFD-Post) Release 19.2   
+ TurboGrid Release 19.2  
+ ICEM CFD Release 19.2   
+ Aqwa Release 19.2   
+ Customization Files for User Programmable Features Release 19.2 
+ Mechanical Products Release 19.2
+ Icepak (includes CFD-Post) Release 19.2 
+ Remote Solve Manager Standalone Services Release 19.2   
+ Viewer Release 19.2 
+ ACIS Geometry Interface Release 19.2
+ AutoCAD Geometry Interface Release 19.2 
+ Catia, Version 4 Geometry Interface Release 19.2
+ Catia, Version 5 Geometry Interface Release 19.2
+ Catia, Version 6 Geometry Interface Release 19.2
+ Creo Elements/Direct Modeling Geometry Interface Release 19.2   
+ Creo Parametric Geometry Interface Release 19.2 
+ Inventor Geometry Interface Release 19.2
+ JTOpen Geometry Interface Release 19.2  
+ NX Geometry Interface Release 19.2  
+ Parasolid Geometry Interface  Release 19.2  
+ Solid Edge Geometry Interface Release 19.2  
+ SOLIDWORKS Geometry Interface Release 19.2  
+ ANSYS, Inc. License Manager Release 19.2
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     2 CORES REQUESTED
+  MPI OPTION                   = INTELMPI
+  INPUT FILE NAME              = C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\_ProjectScratch\Scr5861\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\_ProjectScratch\Scr5861\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= Release 19.2         BUILD= 19.2      UP20180808   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  22:46:25  FEB 17, 2024 CP=      0.047
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.078   TIME= 22:46:25
+ The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
+ solution.  Command is ignored.                                          
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.7736111    
+
+ TITLE= 
+ unsaved_project--Static Structural (B5)                                       
+
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\_ProjectScratch\Scr5861\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\unsaved_project_files\dp0\SYS-1\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\unsaved_project_files\user_files\
+ --- Data in consistent MKS units. See Solving Units in the help system for more
+
+ MKS UNITS SPECIFIED FOR INTERNAL    
+  LENGTH        (l)  = METER (M)
+  MASS          (M)  = KILOGRAM (KG)
+  TIME          (t)  = SECOND (SEC)
+  TEMPERATURE   (T)  = CELSIUS (C)
+  TOFFSET            = 273.0
+  CHARGE        (Q)  = COULOMB
+  FORCE         (f)  = NEWTON (N) (KG-M/SEC2)
+  HEAT               = JOULE (N-M)
+
+  PRESSURE           = PASCAL (NEWTON/M**2)
+  ENERGY        (W)  = JOULE (N-M)
+  POWER         (P)  = WATT (N-M/SEC)
+  CURRENT       (i)  = AMPERE (COULOMBS/SEC)
+  CAPACITANCE   (C)  = FARAD
+  INDUCTANCE    (L)  = HENRY
+  MAGNETIC FLUX      = WEBER
+  RESISTANCE    (R)  = OHM
+  ELECTRIC POTENTIAL = VOLT
+
+ INPUT  UNITS ARE ALSO SET TO MKS 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   22:46:25  FEB 17, 2024 CP=      0.078
+
+ unsaved_project--Static Structural (B5)                                       
+
+
+
+          ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
+ *********** Nodes for the whole assembly ***********
+ *********** Nodes for all Remote Points ***********
+ *********** Elements for Body 1 "Part1\Cut-Extrude11" ***********
+ *********** Elements for Body 2 "Part1\Cut-Extrude11" ***********
+ *********** Elements for Body 3 "Part1\Cut-Extrude11" ***********
+ *********** Elements for Body 4 "Part1\Cut-Extrude11" ***********
+ *********** Elements for Body 5 "Part3\Boss-Extrude5" ***********
+ *********** Elements for Body 6 "Part3\Boss-Extrude5" ***********
+ *********** Elements for Body 7 "Part4\Cut-Extrude4" ***********
+ *********** Elements for Body 8 "Part5\Boss-Extrude5" ***********
+ *********** Elements for Body 9 "Part5\Boss-Extrude5" ***********
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Set Reference Temperature ***********
+ *********** Send Materials ***********
+ *********** Create Contact "Contact Region" ***********
+             Real Constant Set For Above Contact Is 11 & 10
+ *********** Create Contact "Contact Region 2" ***********
+             Real Constant Set For Above Contact Is 13 & 12
+ *********** Create Contact "Contact Region 3" ***********
+             Real Constant Set For Above Contact Is 15 & 14
+ *********** Create Contact "Contact Region 4" ***********
+             Real Constant Set For Above Contact Is 17 & 16
+ *********** Create Contact "Contact Region 5" ***********
+             Real Constant Set For Above Contact Is 19 & 18
+ *********** Create Contact "Contact Region 6" ***********
+             Real Constant Set For Above Contact Is 21 & 20
+ *********** Create Contact "Contact Region 7" ***********
+             Real Constant Set For Above Contact Is 23 & 22
+ *********** Create Contact "Contact Region 8" ***********
+             Real Constant Set For Above Contact Is 25 & 24
+ *********** Create Remote Point "Internal Remote Point 7" ***********
+ *********** Create Remote Point "Internal Remote Point 8" ***********
+ *********** Create Remote Point "Internal Remote Point 9" ***********
+ *********** Create Remote Point "Internal Remote Point 10" ***********
+ *********** Create Remote Point "Internal Remote Point 11" ***********
+ *********** Create Remote Point "Internal Remote Point 12" ***********
+ *********** Create Remote Point "Internal Remote Point 13" ***********
+ *********** Create Remote Point "Internal Remote Point 14" ***********
+ *********** Create Remote Point "Internal Remote Point 15" ***********
+ *********** Create Remote Point "Internal Remote Point 16" ***********
+ *********** Create Remote Point "Internal Remote Point 17" ***********
+ *********** Create Remote Point "Internal Remote Point 18" ***********
+ *********** Create Remote Point "Internal Remote Point 2" ***********
+ *********** Create Remote Point "Internal Remote Point 3" ***********
+ *********** Create Remote Point "Internal Remote Point 4" ***********
+ *********** Create Remote Point "Internal Remote Point 5" ***********
+ *********** Create Remote Point "Internal Remote Point 6" ***********
+ *********** Create Joint "Fixed - Ground To Part4\Cut-Extrude4" ***********
+             Real Constant Set For Above Joint Is 60
+ *********** Create Joint "Revolute - Part4\Cut-Extrude4 To Part3\Boss-Extrude5"
+             Real Constant Set For Above Joint Is 61
+ *********** Create Joint "Revolute - Part4\Cut-Extrude4 To Part3\Boss-Extrude5"
+             Real Constant Set For Above Joint Is 62
+ *********** Create Joint "Revolute - Part4\Cut-Extrude4 To Part5\Boss-Extrude5"
+             Real Constant Set For Above Joint Is 63
+ *********** Create Joint "Revolute - Part4\Cut-Extrude4 To Part5\Boss-Extrude5"
+             Real Constant Set For Above Joint Is 64
+ *********** Create Joint "Revolute - Part5\Boss-Extrude5 To Part1\Cut-Extrude11
+             Real Constant Set For Above Joint Is 65
+ *********** Create Joint "Revolute - Part3\Boss-Extrude5 To Part1\Cut-Extrude11
+             Real Constant Set For Above Joint Is 66
+ *********** Create Joint "Revolute - Part3\Boss-Extrude5 To Part1\Cut-Extrude11
+             Real Constant Set For Above Joint Is 67
+ *********** Create Joint "Revolute - Part5\Boss-Extrude5 To Part1\Cut-Extrude11
+             Real Constant Set For Above Joint Is 68
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.219
+
+
+ --- Number of total nodes = 52766
+ --- Number of contact elements = 3726
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 27339
+ --- Number of condensed parts = 0
+ --- Number of total elements = 31091
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.7736111    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ USE SPARSE MATRIX DIRECT SOLVER
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ NLDIAG: Nonlinear diagnostics CONT option is set to ON. 
+         Writing frequency : each ITERATION.
+
+ DO NOT SAVE ANY RESTART FILES AT ALL
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 1 ****************
+
+ ACEL=    0.0000      0.0000      9.8067    
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE      1 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ PRINTOUT RESUMED BY /GOP
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ NONLINEAR STABILIZATION CONTROL:
+ KEY=OFF 
+
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_                         ( =   0.00000     )  NE  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            CP =       0.250   TIME= 22:46:25
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 2 processes per solution.                     
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       0.250   TIME= 22:46:25
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.250   TIME= 22:46:25
+ MPC184 elements are being used in the current analysis and the          
+ NLGEOM,ON command has not been used.  Thus, only linearized behavior    
+ will be considered.  If finite rotation and large deflection effects    
+ are to be considered, please use the NLGEOM,ON command.                 
+
+ *** NOTE ***                            CP =       0.250   TIME= 22:46:25
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\_Proje 
+ ectScratch\Scr5861\file0.err ) for these warning messages.              
+
+ *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
+      --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
+
+ ELEMENT TYPE    1 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    2 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    3 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    4 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    5 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    6 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    7 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    8 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    9 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   22:46:25  FEB 17, 2024 CP=      0.250
+
+ unsaved_project--Static Structural (B5)                                       
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ   ROTX ROTY ROTZ
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** NOTE ***                            CP =       0.250   TIME= 22:46:25
+ Poisson's ratio PR input has been converted to NU input.                
+
+ *** WARNING ***                         CP =       0.250   TIME= 22:46:25
+ Material number 60 (used by element 27358) should normally have at      
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =       0.250   TIME= 22:46:25
+ No constraints have been defined using the D command.                   
+
+ *** NOTE ***                            CP =       0.250   TIME= 22:46:25
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\_Proje 
+ ectScratch\Scr5861\file0.err ) for these warning messages.              
+
+ *** NOTE ***                            CP =       0.250   TIME= 22:46:25
+ Internal nodes from 52767 to 52810 are created.                         
+ 17 internal nodes are used for handling degrees of freedom on pilot     
+ nodes of rigid target surfaces.                                         
+ 27 internal nodes are used for non-contact elements with mixed          
+ formulation.                                                            
+
+ *** NOTE ***                            CP =       0.297   TIME= 22:46:25
+ Internal nodes from 52767 to 52810 are created.                         
+ 17 internal nodes are used for handling degrees of freedom on pilot     
+ nodes of rigid target surfaces.                                         
+ 27 internal nodes are used for non-contact elements with mixed          
+ formulation.                                                            
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 10 and contact element type 10 has been set up.  The       
+ companion pair has real constant set ID 11.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.21071E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.61248E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.94837E-02
+ Average contact pair depth                   0.61248E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.15312E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 2.776923051E-05 was detected between contact  
+ element 27465 and target element 27674.                                 
+ You may move entire target surface by : x= -2.328345561E-05, y=         
+ 1.513293966E-05, z= -7.067778311E-08,to reduce initial penetration.     
+  
+ Max.  Geometric gap 3.189388757E-05 has been detected between contact   
+ element 27444 and target element 27666.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 11 and contact element type 10 has been set up.  The       
+ companion pair has real constant set ID 10.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.21071E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.43965E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.99628E-02
+ Average contact pair depth                   0.43965E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.10991E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 1.391455646E-05 was detected between contact  
+ element 27524 and target element 27395.                                 
+ You may move entire target surface by : x= 1.202794932E-05, y=          
+ -6.99594974E-06, z= 1.990093755E-09,to reduce initial penetration.      
+  
+ Max.  Geometric gap 2.580700818E-05 has been detected between contact   
+ element 27518 and target element 27367.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 12 and contact element type 12 has been set up.  The       
+ companion pair has real constant set ID 13.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20575E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.61248E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.94837E-02
+ Average contact pair depth                   0.61248E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.15312E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 2.75682409E-05 was detected between contact   
+ element 27905 and target element 28118.                                 
+ You may move entire target surface by : x= -2.488955947E-05, y=         
+ 1.185381003E-05, z= -7.016649404E-08,to reduce initial penetration.     
+  
+ Max.  Geometric gap 4.106341197E-05 has been detected between contact   
+ element 27877 and target element 28124.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 13 and contact element type 12 has been set up.  The       
+ companion pair has real constant set ID 12.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20575E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.44433E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.98557E-02
+ Average contact pair depth                   0.44433E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.11108E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 6.719171936E-06 was detected between contact  
+ element 27978 and target element 27831.                                 
+ You may move entire target surface by : x= -1.148978829E-06, y=         
+ -6.62015249E-06, z= 2.646065706E-08,to reduce initial penetration.      
+  
+ Max.  Geometric gap 2.62877438E-05 has been detected between contact    
+ element 27958 and target element 27807.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 14 and contact element type 14 has been set up.  The       
+ companion pair has real constant set ID 15.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20811E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.61248E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.94837E-02
+ Average contact pair depth                   0.61248E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.15312E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 2.682382365E-05 was detected between contact  
+ element 28353 and target element 28574.                                 
+ You may move entire target surface by : x= -2.375807658E-05, y=         
+ 1.245257609E-05, z= -6.82715797E-08,to reduce initial penetration.      
+  
+ Max.  Geometric gap 4.202225965E-05 has been detected between contact   
+ element 28325 and target element 28580.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 15 and contact element type 14 has been set up.  The       
+ companion pair has real constant set ID 14.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20811E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.43728E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.99184E-02
+ Average contact pair depth                   0.43728E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.10932E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 3.150153399E-05 was detected between contact  
+ element 28416 and target element 28272.                                 
+ You may move entire target surface by : x= -3.134706722E-05, y=         
+ -3.115769663E-06, z= 6.86725262E-21,to reduce initial penetration.      
+  
+ Max.  Geometric gap 3.40042759E-05 has been detected between contact    
+ element 28418 and target element 28270.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 16 and contact element type 16 has been set up.  The       
+ companion pair has real constant set ID 17.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20600E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.61248E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.94837E-02
+ Average contact pair depth                   0.61248E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.15312E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 2.726911762E-05 was detected between contact  
+ element 28817 and target element 29036.                                 
+ You may move entire target surface by : x= -2.624580671E-05, y=         
+ 7.399837107E-06, z= -6.940501406E-08,to reduce initial penetration.     
+  
+ Max.  Geometric gap 3.443347822E-05 has been detected between contact   
+ element 28789 and target element 29042.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 17 and contact element type 16 has been set up.  The       
+ companion pair has real constant set ID 16.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20600E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.43905E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.97455E-02
+ Average contact pair depth                   0.43905E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.10976E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 3.037672018E-05 was detected between contact  
+ element 28880 and target element 28738.                                 
+ You may move entire target surface by : x= -2.968526597E-05, y=         
+ -6.444386204E-06, z= 5.359100884E-21,to reduce initial penetration.     
+  
+ Max.  Geometric gap 3.283893045E-05 has been detected between contact   
+ element 28882 and target element 28732.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 18 and contact element type 18 has been set up.  The       
+ companion pair has real constant set ID 19.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.10336E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.54162E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.10544E-01
+ Average contact pair depth                   0.54162E-02
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.13540E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 1.520704409E-05 was detected between contact  
+ element 29340 and target element 29461.                                 
+ You may move entire target surface by : x= 1.137941108E-05, y=          
+ -1.008551065E-05, z= -2.137015738E-07,to reduce initial penetration.    
+  
+ Max.  Geometric gap 1.349086321E-03 has been detected between contact   
+ element 29349 and target element 29454.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 19 and contact element type 18 has been set up.  The       
+ companion pair has real constant set ID 18.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.10336E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.19855E-02
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.34725E-01
+ Average contact pair depth                   0.19855E-01
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.49637E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 1.110223025E-16 was detected between contact  
+ element 29437 and target element 29287.                                 
+  
+ Max.  Geometric gap 3.154948001E-03 has been detected between contact   
+ element 29431 and target element 29281.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 20 and contact element type 20 has been set up.  The       
+ companion pair has real constant set ID 21.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.99947E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.54162E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.10544E-01
+ Average contact pair depth                   0.54162E-02
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.13540E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 4.823907546E-07 was detected between contact  
+ element 29668 and target element 29756.                                 
+ You may move entire target surface by : x= 4.542693272E-07, y=          
+ -1.62296699E-07, z= -1.358449927E-20,to reduce initial penetration.     
+  
+ Max.  Geometric gap 1.346874784E-03 has been detected between contact   
+ element 29641 and target element 29744.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 21 and contact element type 20 has been set up.  The       
+ companion pair has real constant set ID 20.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.99947E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.20522E-02
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.34302E-01
+ Average contact pair depth                   0.20522E-01
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.51305E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 2.220446049E-16 was detected between contact  
+ element 29729 and target element 29582.                                 
+  
+ Max.  Geometric gap 4.664042027E-03 has been detected between contact   
+ element 29717 and target element 29572.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 22 and contact element type 22 has been set up.  The       
+ companion pair has real constant set ID 23.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.98736E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.20784E-02
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.34451E-01
+ Average contact pair depth                   0.20784E-01
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.51960E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 2.775557562E-17 was detected between contact  
+ element 29815 and target element 30070.                                 
+  
+ Max.  Geometric gap 3.090531594E-03 has been detected between contact   
+ element 29807 and target element 30059.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 23 and contact element type 22 has been set up.  The       
+ companion pair has real constant set ID 22.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.98736E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.49202E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.10077E-01
+ Average contact pair depth                   0.49202E-02
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.12301E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 2.014474296E-07 was detected between contact  
+ element 29898 and target element 29784.                                 
+ You may move entire target surface by : x= -1.870730268E-07, y=         
+ -7.473118161E-08, z= -9.240657623E-24,to reduce initial penetration.    
+  
+ Max.  Geometric gap 1.210215856E-03 has been detected between contact   
+ element 29857 and target element 29781.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 24 and contact element type 24 has been set up.  The       
+ companion pair has real constant set ID 25.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.88593E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.23152E-02
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.34302E-01
+ Average contact pair depth                   0.23152E-01
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.57880E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 0 was detected between contact element 30125  
+ and target element 30368.                                               
+  
+ Max.  Geometric gap 2.420923053E-03 has been detected between contact   
+ element 30122 and target element 30302.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 25 and contact element type 24 has been set up.  The       
+ companion pair has real constant set ID 24.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.88593E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.46513E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.88472E-02
+ Average contact pair depth                   0.46513E-02
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.11628E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Max.  Initial penetration 5.248694436E-07 was detected between contact  
+ element 30207 and target element 30095.                                 
+ You may move entire target surface by : x= 4.764398652E-07, y=          
+ 2.202112342E-07, z= 5.305660201E-21,to reduce initial penetration.      
+  
+ Max.  Geometric gap 1.134935618E-03 has been detected between contact   
+ element 30134 and target element 30094.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 26 and         
+ contact element type 26 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52755 which connects to  
+ other element 27361.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 28 and         
+ contact element type 28 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52756 which connects to  
+ other element 27361.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 30 and         
+ contact element type 30 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52757 which connects to  
+ other element 27362.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 32 and         
+ contact element type 32 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52758 which connects to  
+ other element 27362.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 34 and         
+ contact element type 34 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52759 which connects to  
+ other element 27363.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 36 and         
+ contact element type 36 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52760 which connects to  
+ other element 27363.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 38 and         
+ contact element type 38 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52761 which connects to  
+ other element 27364.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 40 and         
+ contact element type 40 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52762 which connects to  
+ other element 27364.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 42 and         
+ contact element type 42 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52763 which connects to  
+ other element 27365.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 44 and         
+ contact element type 44 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52764 which connects to  
+ other element 27365.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 46 and         
+ contact element type 46 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52765 which connects to  
+ other element 27366.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 48 and         
+ contact element type 48 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52766 which connects to  
+ other element 27366.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 50 and         
+ contact element type 50 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52750 which connects to  
+ other element 27358.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 52 and         
+ contact element type 52 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52751 which connects to  
+ other element 27359.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 54 and         
+ contact element type 54 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52752 which connects to  
+ other element 27359.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 56 and         
+ contact element type 56 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52753 which connects to  
+ other element 27360.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.391   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 58 and         
+ contact element type 58 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52754 which connects to  
+ other element 27360.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+  
+  
+
+ *** NOTE ***                            CP =       0.406   TIME= 22:46:25
+ Internal nodes from 52767 to 52810 are created.                         
+ 17 internal nodes are used for handling degrees of freedom on pilot     
+ nodes of rigid target surfaces.                                         
+ 27 internal nodes are used for non-contact elements with mixed          
+ formulation.                                                            
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 31091
+  ...Number of nodes:    52810
+  ...Decompose to 2 CPU domains
+  ...Element load balance ratio =     1.000
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   NUMBER OF SUBSTEPS. . . . . . . . . . . . . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   INERTIA LOADS                        X           Y           Z 
+      ACEL . . . . . . . . . . . .  0.0000      0.0000      9.8067    
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 10 and contact element type 10 has been set up.  The       
+ companion pair has real constant set ID 11.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.21071E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.61248E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.94837E-02
+ Average contact pair depth                   0.61248E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.15312E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 2.776923051E-05 was detected between contact  
+ element 27465 and target element 27674.                                 
+ You may move entire target surface by : x= -2.328345561E-05, y=         
+ 1.513293966E-05, z= -7.067778311E-08,to reduce initial penetration.     
+  
+ Max.  Geometric gap 3.189388757E-05 has been detected between contact   
+ element 27444 and target element 27666.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 11 and contact element type 10 has been set up.  The       
+ companion pair has real constant set ID 10.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.21071E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.43965E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.99628E-02
+ Average contact pair depth                   0.43965E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.10991E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 1.391455646E-05 was detected between contact  
+ element 27524 and target element 27395.                                 
+ You may move entire target surface by : x= 1.202794932E-05, y=          
+ -6.99594974E-06, z= 1.990093755E-09,to reduce initial penetration.      
+  
+ Max.  Geometric gap 2.580700818E-05 has been detected between contact   
+ element 27518 and target element 27367.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 14 and contact element type 14 has been set up.  The       
+ companion pair has real constant set ID 15.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20811E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.61248E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.94837E-02
+ Average contact pair depth                   0.61248E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.15312E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 2.682382365E-05 was detected between contact  
+ element 28353 and target element 28574.                                 
+ You may move entire target surface by : x= -2.375807658E-05, y=         
+ 1.245257609E-05, z= -6.82715797E-08,to reduce initial penetration.      
+  
+ Max.  Geometric gap 4.202225965E-05 has been detected between contact   
+ element 28325 and target element 28580.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 15 and contact element type 14 has been set up.  The       
+ companion pair has real constant set ID 14.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.20811E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.43728E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.99184E-02
+ Average contact pair depth                   0.43728E-02
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                 0.10932E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 3.150153399E-05 was detected between contact  
+ element 28416 and target element 28272.                                 
+ You may move entire target surface by : x= -3.134706722E-05, y=         
+ -3.115769663E-06, z= 6.86725262E-21,to reduce initial penetration.      
+  
+ Max.  Geometric gap 3.40042759E-05 has been detected between contact    
+ element 28418 and target element 28270.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 18 and contact element type 18 has been set up.  The       
+ companion pair has real constant set ID 19.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.10336E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.54162E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.10544E-01
+ Average contact pair depth                   0.54162E-02
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.13540E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 1.520704409E-05 was detected between contact  
+ element 29340 and target element 29461.                                 
+ You may move entire target surface by : x= 1.137941108E-05, y=          
+ -1.008551065E-05, z= -2.137015738E-07,to reduce initial penetration.    
+  
+ Max.  Geometric gap 1.349086321E-03 has been detected between contact   
+ element 29349 and target element 29454.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 19 and contact element type 18 has been set up.  The       
+ companion pair has real constant set ID 18.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.10336E+16
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.19855E-02
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.34725E-01
+ Average contact pair depth                   0.19855E-01
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.49637E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 1.110223025E-16 was detected between contact  
+ element 29437 and target element 29287.                                 
+  
+ Max.  Geometric gap 3.154948001E-03 has been detected between contact   
+ element 29431 and target element 29281.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 20 and contact element type 20 has been set up.  The       
+ companion pair has real constant set ID 21.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.99947E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.54162E-03
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.10544E-01
+ Average contact pair depth                   0.54162E-02
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.13540E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 4.823907546E-07 was detected between contact  
+ element 29668 and target element 29756.                                 
+ You may move entire target surface by : x= 4.542693272E-07, y=          
+ -1.62296699E-07, z= -1.358449927E-20,to reduce initial penetration.     
+  
+ Max.  Geometric gap 1.346874784E-03 has been detected between contact   
+ element 29641 and target element 29744.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 21 and contact element type 20 has been set up.  The       
+ companion pair has real constant set ID 20.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Linear contact is defined
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness      0.99947E+15
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance          0.20522E-02
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Use constant contact stiffness
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length               0.34302E-01
+ Average contact pair depth                   0.20522E-01
+ Default pinball region factor PINB           0.25000    
+ *WARNING*: The default pinball radius may be too small to capture       
+ contacting zone under small sliding assumption.  Redefine the pinball   
+ radius if necessary.                                                    
+ The resulting pinball region                 0.51305E-02
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Max.  Initial penetration 2.220446049E-16 was detected between contact  
+ element 29729 and target element 29582.                                 
+  
+ Max.  Geometric gap 4.664042027E-03 has been detected between contact   
+ element 29717 and target element 29572.                                 
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 38 and         
+ contact element type 38 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52761 which connects to  
+ other element 27364.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 40 and         
+ contact element type 40 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52762 which connects to  
+ other element 27364.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 42 and         
+ contact element type 42 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52763 which connects to  
+ other element 27365.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 44 and         
+ contact element type 44 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52764 which connects to  
+ other element 27365.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 50 and         
+ contact element type 50 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52750 which connects to  
+ other element 27358.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 52 and         
+ contact element type 52 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52751 which connects to  
+ other element 27359.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 54 and         
+ contact element type 54 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52752 which connects to  
+ other element 27359.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 56 and         
+ contact element type 56 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52753 which connects to  
+ other element 27360.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       0.547   TIME= 22:46:25
+ Rigid-constraint surface identified by real constant set 58 and         
+ contact element type 58 has been set up.  The degrees of freedom of     
+ the rigid surface are driven by the pilot node 52754 which connects to  
+ other element 27360.  Internal MPC will be built.                       
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ ****************************************
+  
+
+  
+ The FEA model contains 0 external CE equations and 5469 internal CE     
+ equations.                                                              
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          10
+ Max.  Penetration of -2.022901257E-16 has been detected between contact 
+ element 27467 and target element 27685.                                 
+  
+ Max.  Geometrical gap of 3.189388757E-05 has been detected between      
+ contact element 27444 and target element 27666.                         
+  
+ Max.  Geometrical penetration of -2.776923051E-05 has been detected     
+ between contact element 27444 and target element 27666.                 
+ For total 70 contact elements, there are 62 elements are in contact.    
+ There are 62 elements are in sticking.                                  
+ Contacting area 1.590903896E-03.                                        
+ Max.  Pinball distance 1.531201191E-03.                                 
+ One of the contact searching regions contains at least 18 target        
+ elements.                                                               
+ Max.  Pressure/force -4.05619816.                                       
+ Max.  Normal stiffness 2.107055031E+15.                                 
+ Min.  Normal stiffness 2.107055031E+15.                                 
+ Max.  Tangential stiffness 1.020594924E+15.                             
+ Min.  Tangential stiffness 1.020594924E+15.                             
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          11
+
+ *** NOTE ***                            CP =       0.906   TIME= 22:46:26
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          14
+ Max.  Penetration of -1.270366055E-15 has been detected between contact 
+ element 28354 and target element 28582.                                 
+  
+ Max.  Geometrical gap of 4.202225965E-05 has been detected between      
+ contact element 28325 and target element 28580.                         
+  
+ Max.  Geometrical penetration of -2.682382365E-05 has been detected     
+ between contact element 28325 and target element 28580.                 
+ For total 70 contact elements, there are 64 elements are in contact.    
+ There are 64 elements are in sticking.                                  
+ Contacting area 1.611184181E-03.                                        
+ Max.  Pinball distance 1.531201189E-03.                                 
+ One of the contact searching regions contains at least 17 target        
+ elements.                                                               
+ Max.  Pressure/force 2.64369575.                                        
+ Max.  Normal stiffness 2.08105037E+15.                                  
+ Min.  Normal stiffness 2.08105037E+15.                                  
+ Max.  Tangential stiffness 1.007999037E+15.                             
+ Min.  Tangential stiffness 1.007999037E+15.                             
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          15
+
+ *** NOTE ***                            CP =       0.906   TIME= 22:46:26
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          18
+ Max.  Penetration of -2.305848631E-15 has been detected between contact 
+ element 29326 and target element 29453.                                 
+  
+ Max.  Geometrical gap of 1.349086321E-03 has been detected between      
+ contact element 29349 and target element 29454.                         
+ *WARNING*: The geometrical gap may be too large.  Increase pinball if   
+ it is a true geometrical gap.  Decrease pinball if it is a false one.   
+  
+ Max.  Geometrical penetration of -1.520704409E-05 has been detected     
+ between contact element 29349 and target element 29454.                 
+ For total 118 contact elements, there are 96 elements are in contact.   
+ There are 96 elements are in sticking.                                  
+ Contacting area 2.286945013E-03.                                        
+ Max.  Pinball distance 1.354040837E-03.                                 
+ One of the contact searching regions contains at least 9 target         
+ elements.                                                               
+ Max.  Pressure/force -9.27322791.                                       
+ Max.  Normal stiffness 1.033571943E+15.                                 
+ Min.  Normal stiffness 1.033571943E+15.                                 
+ Max.  Tangential stiffness 3.981983307E+14.                             
+ Min.  Tangential stiffness 3.981983307E+14.                             
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          19
+
+ *** NOTE ***                            CP =       0.906   TIME= 22:46:26
+ Contact pair is inactive.                                               
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          20
+ Max.  Penetration of -2.854708334E-15 has been detected between contact 
+ element 29618 and target element 29752.                                 
+  
+ Max.  Geometrical gap of 1.346874784E-03 has been detected between      
+ contact element 29641 and target element 29744.                         
+ *WARNING*: The geometrical gap may be too large.  Increase pinball if   
+ it is a true geometrical gap.  Decrease pinball if it is a false one.   
+  
+ Max.  Geometrical penetration of -4.823907546E-07 has been detected     
+ between contact element 29641 and target element 29744.                 
+ For total 118 contact elements, there are 96 elements are in contact.   
+ There are 96 elements are in sticking.                                  
+ Contacting area 2.286945015E-03.                                        
+ Max.  Pinball distance 1.35404084E-03.                                  
+ One of the contact searching regions contains at least 9 target         
+ elements.                                                               
+ Max.  Pressure/force -4.98212771.                                       
+ Max.  Normal stiffness 9.994672576E+14.                                 
+ Min.  Normal stiffness 9.994672576E+14.                                 
+ Max.  Tangential stiffness 3.850590151E+14.                             
+ Min.  Tangential stiffness 3.850590151E+14.                             
+ *************************************************
+  
+ *************************************************
+  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          21
+
+ *** NOTE ***                            CP =       0.906   TIME= 22:46:26
+ Contact pair is inactive.                                               
+
+
+                         ***********  PRECISE MASS SUMMARY  ***********
+
+   TOTAL RIGID BODY MASS MATRIX ABOUT ORIGIN
+               Translational mass               |   Coupled translational/rotational mass
+         26.895        0.0000        0.0000     |     0.0000        9.6789       -3.2836    
+         0.0000        26.895        0.0000     |    -9.6789        0.0000        5.2681    
+         0.0000        0.0000        26.895     |     3.2836       -5.2681        0.0000    
+     ------------------------------------------ | ------------------------------------------
+                                                |         Rotational mass (inertia)
+                                                |     4.4926      -0.82832       -1.8871    
+                                                |   -0.82832        6.3411       -1.1863    
+                                                |    -1.8871       -1.1863        3.3206    
+
+   TOTAL MASS =  26.895    
+     The mass principal axes coincide with the global Cartesian axes
+
+   CENTER OF MASS (X,Y,Z)=   0.19588       0.12209       0.35988    
+
+   TOTAL INERTIA ABOUT CENTER OF MASS
+        0.60850      -0.18514       0.87380E-02
+       -0.18514        1.8260      -0.45594E-02
+        0.87380E-02  -0.45594E-02    1.8878    
+
+   PRINCIPAL INERTIAS =   0.58092        1.8526        1.8888    
+   ORIENTATION VECTORS OF THE INERTIA PRINCIPAL AXES IN GLOBAL CARTESIAN
+     ( 0.989, 0.147,-0.006) (-0.144, 0.976, 0.162) ( 0.030,-0.160, 0.987) 
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1  0.580560    
+     2  0.580560    
+     3  0.580560    
+     4  0.580560    
+     5  0.810444    
+     6  0.810444    
+     7   21.3309    
+     8  0.810403    
+     9  0.810403    
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 1.276899665E+11 at element 29413.                             
+ Minimum = 42197751.7 at element 20111.                                  
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3016  SOLID187      0.016   0.000005
+        2      3016  SOLID187      0.062   0.000021
+        3      3016  SOLID187      0.078   0.000026
+        4      3016  SOLID187      0.078   0.000026
+        5      2394  SOLID187      0.031   0.000013
+        6      2394  SOLID187      0.062   0.000026
+        7      5739  SOLID187      0.125   0.000022
+        8      2374  SOLID187      0.031   0.000013
+        9      2374  SOLID187      0.016   0.000007
+       10       220  CONTA174      0.000   0.000000
+       11       220  TARGE170      0.000   0.000000
+       12       224  CONTA174      0.000   0.000000
+       13       224  TARGE170      0.000   0.000000
+       14       232  CONTA174      0.000   0.000000
+       15       232  TARGE170      0.000   0.000000
+       16       230  CONTA174      0.000   0.000000
+       17       230  TARGE170      0.000   0.000000
+       18       146  CONTA174      0.000   0.000000
+       19       146  TARGE170      0.000   0.000000
+       20       146  CONTA174      0.000   0.000000
+       21       146  TARGE170      0.000   0.000000
+       22       156  CONTA174      0.016   0.000100
+       23       156  TARGE170      0.000   0.000000
+       24       149  CONTA174      0.016   0.000105
+       25       149  TARGE170      0.000   0.000000
+       26        22  CONTA174      0.000   0.000000
+       27         1  TARGE170      0.000   0.000000
+       28        68  CONTA174      0.016   0.000230
+       29         1  TARGE170      0.000   0.000000
+       30        22  CONTA174      0.000   0.000000
+       31         1  TARGE170      0.000   0.000000
+       32        68  CONTA174      0.000   0.000000
+       33         1  TARGE170      0.000   0.000000
+       34        32  CONTA174      0.000   0.000000
+       35         1  TARGE170      0.000   0.000000
+       36        32  CONTA174      0.000   0.000000
+       37         1  TARGE170      0.000   0.000000
+       38        32  CONTA174      0.000   0.000000
+       39         1  TARGE170      0.000   0.000000
+       40        32  CONTA174      0.000   0.000000
+       41         1  TARGE170      0.000   0.000000
+       42        32  CONTA174      0.000   0.000000
+       43         1  TARGE170      0.000   0.000000
+       44        32  CONTA174      0.000   0.000000
+       45         1  TARGE170      0.000   0.000000
+       46        32  CONTA174      0.000   0.000000
+       47         1  TARGE170      0.000   0.000000
+       48        32  CONTA174      0.000   0.000000
+       49         1  TARGE170      0.000   0.000000
+       50       120  CONTA174      0.016   0.000130
+       51         1  TARGE170      0.000   0.000000
+       52        22  CONTA174      0.000   0.000000
+       53         1  TARGE170      0.000   0.000000
+       54        60  CONTA174      0.000   0.000000
+       55         1  TARGE170      0.000   0.000000
+       56        22  CONTA174      0.000   0.000000
+       57         1  TARGE170      0.000   0.000000
+       58        60  CONTA174      0.000   0.000000
+       59         1  TARGE170      0.000   0.000000
+       60         1  MPC184        0.000   0.000000
+       61         1  MPC184        0.000   0.000000
+       62         1  MPC184        0.000   0.000000
+       63         1  MPC184        0.000   0.000000
+       64         1  MPC184        0.000   0.000000
+       65         1  MPC184        0.000   0.000000
+       66         1  MPC184        0.000   0.000000
+       67         1  MPC184        0.000   0.000000
+       68         1  MPC184        0.000   0.000000
+ Time at end of element matrix formulation CP = 0.90625.                 
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =      152939,    Maximum wavefront =   1068
+
+  Local memory allocated for solver              =    299.323 MB
+  Local memory required for in-core solution     =    216.178 MB
+  Local memory required for out-of-core solution =    114.292 MB
+
+  Total memory allocated for solver              =    633.837 MB
+  Total memory required for in-core solution     =    456.226 MB
+  Total memory required for out-of-core solution =    237.165 MB
+
+ *** NOTE ***                            CP =       1.250   TIME= 22:46:27
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+ *** WARNING ***                         CP =       1.250   TIME= 22:46:27
+ Pivoting has been activated for the Distributed Sparse Matrix Solver .  
+ The memory required may greatly exceed the predicted amount.  In that   
+ event, use the DSPOPTION command to change the memory mode and/or       
+ memory size used by the Distributed Sparse Matrix Solver.               
+ curEqn=  13582  totEqn=  69688 Job CP sec=      1.406
+      Factor Done=  50% Factor Wall sec=      0.343 rate=    6606.0 Mflops
+ curEqn=  31802  totEqn=  69688 Job CP sec=      1.547
+      Factor Done= 100% Factor Wall sec=      0.483 rate=    9382.4 Mflops
+ curEqn=  69688  totEqn=  69688 Job CP sec=      1.578
+      Factor Done= 100% Factor Wall sec=      0.521 rate=    8701.0 Mflops
+ Distributed sparse solver maximum pivot= 9.357608809E+10 at node 22346  
+ UX.                                                                     
+ Distributed sparse solver minimum pivot= 118065.195 at node 13653 UZ.   
+ Distributed sparse solver minimum pivot in absolute value= 118065.195   
+ at node 13653 UZ.                                                       
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3016  SOLID187      0.031   0.000010
+        2      3016  SOLID187      0.078   0.000026
+        3      3016  SOLID187      0.031   0.000010
+        4      3016  SOLID187      0.000   0.000000
+        5      2394  SOLID187      0.031   0.000013
+        6      2394  SOLID187      0.016   0.000007
+        7      5739  SOLID187      0.047   0.000008
+        8      2374  SOLID187      0.016   0.000007
+        9      2374  SOLID187      0.000   0.000000
+       10       220  CONTA174      0.000   0.000000
+       12       224  CONTA174      0.000   0.000000
+       14       232  CONTA174      0.000   0.000000
+       16       230  CONTA174      0.000   0.000000
+       18       146  CONTA174      0.000   0.000000
+       20       146  CONTA174      0.000   0.000000
+       22       156  CONTA174      0.000   0.000000
+       24       149  CONTA174      0.000   0.000000
+       26        22  CONTA174      0.000   0.000000
+       28        68  CONTA174      0.000   0.000000
+       30        22  CONTA174      0.000   0.000000
+       32        68  CONTA174      0.000   0.000000
+       34        32  CONTA174      0.000   0.000000
+       36        32  CONTA174      0.000   0.000000
+       38        32  CONTA174      0.000   0.000000
+       40        32  CONTA174      0.000   0.000000
+       42        32  CONTA174      0.000   0.000000
+       44        32  CONTA174      0.000   0.000000
+       46        32  CONTA174      0.000   0.000000
+       48        32  CONTA174      0.000   0.000000
+       50       120  CONTA174      0.000   0.000000
+       52        22  CONTA174      0.000   0.000000
+       54        60  CONTA174      0.000   0.000000
+       56        22  CONTA174      0.000   0.000000
+       58        60  CONTA174      0.000   0.000000
+       60         1  MPC184        0.000   0.000000
+       61         1  MPC184        0.000   0.000000
+       62         1  MPC184        0.000   0.000000
+       63         1  MPC184        0.000   0.000000
+       64         1  MPC184        0.000   0.000000
+       65         1  MPC184        0.000   0.000000
+       66         1  MPC184        0.000   0.000000
+       67         1  MPC184        0.000   0.000000
+       68         1  MPC184        0.000   0.000000
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3016  SOLID187      0.016   0.000005
+        2      3016  SOLID187      0.000   0.000000
+        3      3016  SOLID187      0.000   0.000000
+        4      3016  SOLID187      0.000   0.000000
+        5      2394  SOLID187      0.000   0.000000
+        6      2394  SOLID187      0.000   0.000000
+        7      5739  SOLID187      0.000   0.000000
+        8      2374  SOLID187      0.000   0.000000
+        9      2374  SOLID187      0.000   0.000000
+       10       220  CONTA174      0.000   0.000000
+       12       224  CONTA174      0.000   0.000000
+       14       232  CONTA174      0.000   0.000000
+       16       230  CONTA174      0.000   0.000000
+       18       146  CONTA174      0.000   0.000000
+       20       146  CONTA174      0.000   0.000000
+       22       156  CONTA174      0.000   0.000000
+       24       149  CONTA174      0.000   0.000000
+       26        22  CONTA174      0.000   0.000000
+       28        68  CONTA174      0.000   0.000000
+       30        22  CONTA174      0.000   0.000000
+       32        68  CONTA174      0.000   0.000000
+       34        32  CONTA174      0.000   0.000000
+       36        32  CONTA174      0.000   0.000000
+       38        32  CONTA174      0.000   0.000000
+       40        32  CONTA174      0.000   0.000000
+       42        32  CONTA174      0.000   0.000000
+       44        32  CONTA174      0.000   0.000000
+       46        32  CONTA174      0.000   0.000000
+       48        32  CONTA174      0.000   0.000000
+       50       120  CONTA174      0.000   0.000000
+       52        22  CONTA174      0.000   0.000000
+       54        60  CONTA174      0.000   0.000000
+       56        22  CONTA174      0.000   0.000000
+       58        60  CONTA174      0.000   0.000000
+       60         1  MPC184        0.000   0.000000
+       61         1  MPC184        0.000   0.000000
+       62         1  MPC184        0.000   0.000000
+       63         1  MPC184        0.000   0.000000
+       64         1  MPC184        0.000   0.000000
+       65         1  MPC184        0.000   0.000000
+       66         1  MPC184        0.000   0.000000
+       67         1  MPC184        0.000   0.000000
+       68         1  MPC184        0.000   0.000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        1.750 MB WRITTEN ON ELEMENT MATRIX FILE: file0.emat
+       12.375 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+       44.250 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+       12.562 MB WRITTEN ON RESULTS FILE: file0.rst
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.7747222    
+
+ PRINTOUT RESUMED BY /GOP
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         1.859
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   22:46:29  FEB 17, 2024 CP=      1.859
+
+ unsaved_project--Static Structural (B5)                                       
+
+
+
+          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =       1.859   TIME= 22:46:29
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE ANSYS POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =         1.859
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.7747222    
+
+ PARAMETER _PREPTIME =     0.000000000    
+
+ PARAMETER _SOLVTIME =     4.000000000    
+
+ PARAMETER _POSTTIME =     0.000000000    
+
+ PARAMETER _TOTALTIM =     4.000000000    
+
+ EXIT ANSYS WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          5
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
+
+Release: Release 19.2       Build: 19.2       Update: UP20180808   Platform: WINDOWS x64 
+Date Run: 02/17/2024   Time: 22:46     Process ID: 22956
+Operating System: Windows 8  (Build: 9200)
+
+Processor Model: 11th Gen Intel(R) Core(TM) i5-11260H @ 2.60GHz
+
+Compiler: Intel(R) FORTRAN Compiler Version 17.0.4  (Build: 20170411)
+          Intel(R) C/C++ Compiler Version 17.0.4  (Build: 20170411)
+          Intel(R) Math Kernel Library Version 2017.0.3 Product Build 20170413
+
+Number of machines requested            :    1
+Total number of cores available         :   12
+Number of physical cores available      :    6
+Number of processes requested           :    2
+Number of threads per process requested :    1
+Total number of cores requested         :    2 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2017 Update 3 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0             DESKTOP-RQ8G2AP   C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\_ProjectScratch\Scr5861
+     1             DESKTOP-RQ8G2AP   C:\Users\DELL\AppData\Local\Temp\WB_DESKTOP-RQ8G2AP_DELL_23396_2\_ProjectScratch\Scr5861
+ 
+Latency time from master to core     1 =    1.012 microseconds
+ 
+Communication speed from master to core     1 =  6929.91 MB/sec
+
+Total CPU time for main thread                    :        1.5 seconds
+Total CPU time summed for all threads             :        1.9 seconds
+
+Elapsed time spent pre-processing model (/PREP7)  :        0.2 seconds
+Elapsed time spent solution - preprocessing       :        0.6 seconds
+Elapsed time spent computing solution             :        3.2 seconds
+Elapsed time spent solution - postprocessing      :        0.1 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (symmetric)
+Equation solver computational rate                :       17.3 Gflops
+
+Maximum total memory used                         :     1036.0 MB
+Maximum total memory allocated                    :     3136.0 MB
+Total physical memory available                   :         16 GB
+
+Total amount of I/O written to disk               :        0.2 GB
+Total amount of I/O read from disk                :        0.1 GB
+
++------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys Release 19.2          Build 19.2         UP20180808     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used      41 MB    Maximum Scratch Memory Used    499 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =          1.906       Time  =  22:46:30        |
+ |        Elapsed Time (sec) =          7.000       Date  =  02/17/2024      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*
